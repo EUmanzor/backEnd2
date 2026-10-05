@@ -1,5 +1,43 @@
 # backEnd2
 
+1. Clonar el Repositorio
+
+2. Crear y Activar el Entorno Virtual
+      python -m venv vEnv
+      cd vEnv\Scripts
+      .\Activate
+      cd..
+      cd..
+      
+3. Instalar las Dependencias
+      pip install -r requirements.txt
+
+4.Configurar y Migrar la Base de Datos
+      python manage.py migrate
+      python manage.py makemigrations
+      python manage.py migrate
+
+5. Crear un Superusuario (con esto se podrá logear en /admin/ y una vez logeado, podras ir a /app/ para poder interactuar en la pagina principal
+      python manage.py createsuperuser
+
+6. Ejecutar el Servidor
+      python manage.py runserver
+
+7. Entra a http://127.0.0.1:8000/
+      /app      
+      /admin
+
+
+
+si entrá sin logear solo podrá ver informacion, no modificar o agregar (CRUD)
+
+(requiere crear una cuenta de super usuario a traves de la terminal)
+
+después de CREAR la cuenta y LOGEAR, podrá interactuar en la pagina principal, sino solo podrá ver los datos presentes
+
+(una vez logeado, en la pagina principal le aparecera arriba a la derecha su nombre de usuario y podrá interactuar en cada pagina abajo a la derecha)
+
+
 
 
 algunos datos para agregar a la base de datos
