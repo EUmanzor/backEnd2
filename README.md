@@ -38,7 +38,7 @@ después de CREAR la cuenta y LOGEAR, podrá interactuar en la pagina principal,
 
 (una vez logeado, en la pagina principal le aparecera arriba a la derecha su nombre de usuario y podrá interactuar en cada pagina abajo a la derecha)
 
-
+(la carpeta .env está incluida ya que lo dice las instrucciones)
 
 
 
