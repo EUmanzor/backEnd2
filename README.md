@@ -24,11 +24,11 @@
       python manage.py runserver
 
 7. Entra a http://127.0.0.1:8000/
-/app      
+
+/app
+
 /admin
-.
-.
-.
+
 
 si entrá sin logear solo podrá ver informacion, no modificar o agregar (CRUD)
 
@@ -37,15 +37,16 @@ si entrá sin logear solo podrá ver informacion, no modificar o agregar (CRUD)
 después de CREAR la cuenta y LOGEAR, podrá interactuar en la pagina principal, sino solo podrá ver los datos presentes
 
 (una vez logeado, en la pagina principal le aparecera arriba a la derecha su nombre de usuario y podrá interactuar en cada pagina abajo a la derecha)
-.
-.
-.
-.
-.
-.
-.
-.
-algunos datos para agregar a la base de datos
+
+
+
+
+
+
+
+
+
+ALGUNOS DATOS DE EJEMPLO PARA INGRESAR A LA BASE DE DATOS:
 
 -- 1. Insertar usuarios
 INSERT INTO auth_user (password, is_superuser, username, first_name, last_name, email, is_staff, is_active, date_joined) VALUES
